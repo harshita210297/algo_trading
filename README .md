@@ -48,9 +48,7 @@ By inspecting the baseline perfomance depicted by the figure above, it is eviden
 | *Increase the training window to 24 months* |*Decrease the training window to 1 month* |
 
 Both increasing and decreasing the training window kept the final cumulative strategy returns above the actual returns, but compared to the baseline they both have their tradeoffs.
-
 Decreasing the training window decreased the cumulative strategy returns by approximately 15% compared to the baseline, however the strategy returns was greater than the actual returns throughout the entire period.
-
 Increasing the training window increased the cumulative strategy returns by approximately 15% compared to the baseline, however the strategy returns was about equal to the actual returns from the begining of the period to about March 2020. It was after March 2020 when the strategy returns overtook the actual returns.
 
 <center>
