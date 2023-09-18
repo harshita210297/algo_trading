@@ -1,7 +1,5 @@
 # Machine Learning Trading Bot
 
-![Decorative image.](Images/14-challenge-image.png)
-
 This project aims to trade with much speeder than humans by using computer algorithms. The goal is to create a machine learning algorithm that adapts to new data to automatically trade assets.
 
 ## ABOUT
@@ -45,7 +43,7 @@ By inspecting the baseline perfomance depicted by the figure above, it is eviden
     <h3>Adjusting the Size of the Training Dataset</h3>
 </center>
 
-| <img src="Images/Tune 1/svm_returns_increase_training.png"> | <img src="Images/Tune 1/svm_returns_decrease_training.png"> | 
+| <img src="Images/Tune_1/svm_returns_increase_training.png"> | <img src="Images/Tune_1/svm_returns_decrease_training.png"> | 
 |:--:|:--:| 
 | *Increase the training window to 24 months* |*Decrease the training window to 1 month* |
 
@@ -59,13 +57,13 @@ Increasing the training window increased the cumulative strategy returns by appr
     <h3>Adjusting the SMA Input Features</h3>
 </center>
 
-|<img src="Images/Tune 2/svm_returns_increase_short_sma.png"> |<img src="Images/Tune 2/svm_returns_increase_long_sma.png"> |<img src="Images/Tune 2/svm_returns_increase_both_sma.png"> |
+|<img src="Images/Tune_2/svm_returns_increase_short_sma.png"> |<img src="Images/Tune_2/svm_returns_increase_long_sma.png"> |<img src="Images/Tune_2/svm_returns_increase_both_sma.png"> |
 |:--:|:--:|:--:|
 |*Increase the Short SMA Window to 20*|*Increase the Long SMA Window to 150*|*Increase both the Short and Long SMA Windows*|
 
 Increasing only the short and both SMA windows resulted in a significant decrease in the cumulative strategy returns that is even lower than the actual returns, whereas increasing only the long SMA window decreased the cumulative strategy returns by approximately 1-2% compared to the actual returns.
 
-|<img src="Images/Tune 2/svm_returns_decrease_short_sma.png"> |<img src="Images/Tune 2/svm_returns_decrease_long_sma.png"> |<img src="Images/Tune 2/svm_returns_decrease_both_sma.png"> |
+|<img src="Images/Tune_2/svm_returns_decrease_short_sma.png"> |<img src="Images/Tune_2/svm_returns_decrease_long_sma.png"> |<img src="Images/Tune_2/svm_returns_decrease_both_sma.png"> |
 |:--:|:--:|:--:|
 |*Decrease the Short SMA Window to 2*|*Decrease the Long SMA Window to 20*|*Decrease both the Short and Long SMA Windows*|
 
